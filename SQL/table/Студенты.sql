@@ -1,7 +1,7 @@
-if object_id('Студенты') is null
-create table [Студенты](
-	 [Идентификатор]	int identity(1,1)	not null,
-	[Имя]			nvarchar(100)		not null,
-	[Фамилия]		nvarchar(100)		not null,
+if object_id('РЎС‚СѓРґРµРЅС‚С‹') is null
+create table [РЎС‚СѓРґРµРЅС‚С‹](
+	[РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ]	int identity(1,1)	not null,
+	[РРјСЏ]			nvarchar(100)		not null,
+	[Р¤Р°РјРёР»РёСЏ]		nvarchar(100)		not null,
  )
 go
